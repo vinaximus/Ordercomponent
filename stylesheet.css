@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+ :root {
+     --paleBlue: hsl(225, 100%, 94%);
+     --veryPaleBlue: hsl(225, 100%, 98%);
+     --desaturatedBlue: hsl(224, 23%, 55%);
+     --darkBlue:  hsl(223, 47%, 23%);
+     --brightBlue:  hsl(245, 75%, 52%);
+}
+ 
+ * {
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ 
+ body {
+     background-image: url("images/pattern-background-desktop.svg");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+.container {
+    /* display: flex; */
+    max-width: 460px;
+    margin:50px auto;
+    border-radius: 10px;
+    background-color: white;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+header {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 15px;
+}
+
+main {
+    font-weight: 500;
+}
+
+.main--text {
+    margin:10px 15%;
+    line-height: 1.5rem;
+    color: grey;
+    
+    /* width:80% */
+
+}
+
+.main--plan {
+    margin:20px 15%;
+    display: flex;
+    align-items: center;
+    background-color: var(--veryPaleBlue);
+    /* background-color: brown; */
+    border-radius: 10px;
+}
+
+.main--plan img {
+    margin:20px 10px;
+}
+
+.main--plan a {
+    line-height: 1.5rem;
+}
+
+.main--plan span {
+    color:grey;
+}
+
+.main--change {
+    margin-left: auto;
+    margin-right: 20px;
+    
+}
+
+.main--change:hover {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.btn--main {
+    width: 65%;
+    height: 40px;
+    border:none;
+    border-radius: 10px;
+    background-color:var(--brightBlue);
+    color:white;
+    font-weight: 700;
+    margin-bottom: 25px;
+    
+}
+
+.btn--main:hover {
+    filter:brightness(170%);
+
+}
+
+
+
+@media screen and (max-width: 495px){
+    .container {
+        max-width: 90%;
+    }
+
+    .main--plan {
+        margin: 20px 5%;
+    }
+
+}
+    
+
+    
+
+
