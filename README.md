@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://vinaximus.github.io/Ordercomponent/
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL:https://github.com/vinaximus/Ordercomponent.git
 
 ## My process
 
